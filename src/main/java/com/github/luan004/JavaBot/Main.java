@@ -23,18 +23,15 @@ public class Main {
 	private static char prefixo = '?';
 	
     public static void main(String[] args) {
-    	
-    	
-    	//UX
-    	ux();
-    	
-    	
     	// TOKEN
     	Token tokenClass = new Token();
         String token = tokenClass.getToken();
         
         // API
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
+
+    	//UX
+    	ux();
         
         // COMANDOS
        	Comandos.ping(api);
