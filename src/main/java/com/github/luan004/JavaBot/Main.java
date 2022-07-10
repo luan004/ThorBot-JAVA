@@ -40,6 +40,7 @@ public class Main {
        	Comandos.say(api);
        	Comandos.conectar(api);
        	Comandos.sorteio(api);
+       	Comandos.avatar(api);
     }
     	
     	private static void ux() {
@@ -78,7 +79,7 @@ public class Main {
     	public static void logUsoComando(String comando, String canal) {
     		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
     		LocalDateTime now = LocalDateTime.now(); 
-    		log.setText(log.getText() + dtf.format(now) +" | Comando "+comando+" utilizado no canal #"+canal+"\n");
+    		log.setText(log.getText() + dtf.format(now) +" | "+comando+" utilizado no canal #"+canal+"\n");
     	}
     	public static void log(String texto) {
     		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
