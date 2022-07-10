@@ -41,6 +41,8 @@ public class Main {
        	Comandos.conectar(api);
        	Comandos.sorteio(api);
        	Comandos.avatar(api);
+       	Comandos.serverinfo(api);
+       	Comandos.sayd(api);
     }
     	
     	private static void ux() {
