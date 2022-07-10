@@ -153,7 +153,7 @@ public class Comandos extends Main {
 
 				EmbedBuilder embed;
 				try {
-					embed = new EmbedBuilder().setTitle("Que belo avatar!")
+					embed = new EmbedBuilder().setTitle("Que belo avatar!!")
 							.setImage(api.getUserById(event.getMessage().getContent().substring(10).replace(">", ""))
 									.get().getAvatar());
 					event.getChannel().sendMessage(embed);
