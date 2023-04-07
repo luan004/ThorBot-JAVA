@@ -1,8 +1,8 @@
-# ThorBot
+# 🤖 ThorBot
 
 Este projeto consiste em um simples bot de Discord feito inteiramente em Java, 
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - Maven
 - Javacord
