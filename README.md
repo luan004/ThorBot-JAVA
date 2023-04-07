@@ -1,6 +1,10 @@
 # 🤖 ThorBot
 
-Este projeto consiste em um simples bot de Discord feito inteiramente em Java, 
+Este projeto consiste em um simples bot de Discord feito inteiramente em Java com o auxílio da biblioteca Javacord.
+
+## 🖼️ Imagens
+
+
 
 ## 🛠️ Tecnologias Utilizadas
 
