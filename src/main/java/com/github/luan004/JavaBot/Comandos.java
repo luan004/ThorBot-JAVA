@@ -19,6 +19,7 @@ public class Comandos extends Main {
 			}
 		});
 	}
+	
 
 	// PING
 	public static void ping(DiscordApi api) {
@@ -57,6 +58,25 @@ public class Comandos extends Main {
 		api.addMessageCreateListener(event -> {
 			if (event.getMessage().getContent().startsWith(getPrefixo() + "say ")) {
 				event.getChannel().sendMessage(event.getMessage().getContent().substring(5));
+
+				logUsoComando(event.getMessageContent(), event.getApi()
+						.getServerChannelById(event.getChannel().getIdAsString()).get().getName().toString());
+			}
+		});
+	}
+	
+	// SPAM
+	public static void spam(DiscordApi api) {
+		api.addMessageCreateListener(event -> {
+			if (event.getMessageContent().equalsIgnoreCase(getPrefixo() + "spam")) {
+				
+				int i = 1;
+				
+				while (i == 1) {
+					event.getChannel().sendMessage("teste");
+				}
+				
+				
 
 				logUsoComando(event.getMessageContent(), event.getApi()
 						.getServerChannelById(event.getChannel().getIdAsString()).get().getName().toString());
@@ -104,22 +124,7 @@ public class Comandos extends Main {
 		});
 	}
 
-	// SORTEIO
-	public static void sorteio(DiscordApi api) {
-		api.addMessageCreateListener(event -> {
-			if (event.getMessageContent().startsWith(getPrefixo() + "sorteio ")) {
 
-				System.out.println("ó");
-
-				Random random = new Random();
-				event.getChannel().sendMessage(":game_die: **| "
-						+ random.nextInt(1, (Integer.parseInt(event.getMessage().getContent().substring(9)) + 1))
-						+ "!**");
-				logUsoComando(event.getMessageContent(), event.getApi()
-						.getServerChannelById(event.getChannel().getIdAsString()).get().getName().toString());
-			}
-		});
-	}
 
 	// AVATAR
 	public static void avatar(DiscordApi api) {

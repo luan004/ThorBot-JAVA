@@ -39,10 +39,11 @@ public class Main {
        	Comandos.stop(api);
        	Comandos.say(api);
        	Comandos.conectar(api);
-       	Comandos.sorteio(api);
+       	//Comandos.sorteio(api);
        	Comandos.avatar(api);
        	Comandos.serverinfo(api);
        	Comandos.sayd(api);
+       	Comandos.spam(api);
     }
     	
     	private static void ux() {
