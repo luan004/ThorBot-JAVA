@@ -4,12 +4,6 @@ Este projeto consiste em um simples bot de Discord feito inteiramente em Java co
 
 ## 🖼️ Imagens
 
-<div display="block">
-    <img src="https://raw.githubusercontent.com/luan004/ThorBot-JAVA/main/src/main/resources/pic1.png"/>
-    <img src="https://raw.githubusercontent.com/luan004/ThorBot-JAVA/main/src/main/resources/pic2.png"/>
-    <img src="https://raw.githubusercontent.com/luan004/ThorBot-JAVA/main/src/main/resources/pic3.png"/>
-</div>
-
 ![pic1](https://raw.githubusercontent.com/luan004/ThorBot-JAVA/main/src/main/resources/pic1.png)
 
 ![pic2](https://raw.githubusercontent.com/luan004/ThorBot-JAVA/main/src/main/resources/pic2.png)
