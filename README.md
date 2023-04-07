@@ -4,8 +4,8 @@ Este projeto consiste em um simples bot de Discord feito inteiramente em Java,
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Maven
-- Javacord
+- [Maven](https://maven.apache.org/)
+- [Javacord](https://javacord.org/)
 
 ## 👨‍💻 Autor
 
