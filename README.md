@@ -7,9 +7,9 @@ Este projeto consiste em um simples bot de Discord feito inteiramente em Java,
 - Maven
 - Javacord
 
-## Autor
+## 👨‍💻 Autor
 
 - [Luan Gabriel](https://github.com/luan004)
 
-# Licença
+## 📜 Licença
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
